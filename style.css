@@ -1,0 +1,25 @@
+body{
+   background-color: wheat;
+}
+nav ul {
+    list-style: none;      
+    margin: 0;
+    padding: 0;
+    display: flex;          
+    justify-content: center; 
+    gap: 20px;              
+}
+
+nav ul li {
+    display: inline;        /* horizontal items */
+}
+
+nav ul li a {
+    text-decoration: none;  /* underline remove */
+    color: #333;            /* text color */
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #0066cc;         /* hover effect */
+}
